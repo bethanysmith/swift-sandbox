@@ -14,6 +14,7 @@
 		0061B3092B02F3760037B445 /* SwiftSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061B3082B02F3760037B445 /* SwiftSandboxTests.swift */; };
 		0061B3132B02F3760037B445 /* SwiftSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061B3122B02F3760037B445 /* SwiftSandboxUITests.swift */; };
 		0061B3152B02F3760037B445 /* SwiftSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061B3142B02F3760037B445 /* SwiftSandboxUITestsLaunchTests.swift */; };
+		00DBAA5E2B034B3000671A19 /* DependencyInjectionSandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBAA5D2B034B3000671A19 /* DependencyInjectionSandbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0061B30E2B02F3760037B445 /* SwiftSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0061B3122B02F3760037B445 /* SwiftSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSandboxUITests.swift; sourceTree = "<group>"; };
 		0061B3142B02F3760037B445 /* SwiftSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00DBAA5D2B034B3000671A19 /* DependencyInjectionSandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionSandbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0061B2F92B02F3700037B445 /* ContentView.swift */,
 				0061B2FB2B02F3750037B445 /* Assets.xcassets */,
 				0061B2FD2B02F3750037B445 /* Preview Content */,
+				00DBAA5D2B034B3000671A19 /* DependencyInjectionSandbox.swift */,
 			);
 			path = SwiftSandbox;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DBAA5E2B034B3000671A19 /* DependencyInjectionSandbox.swift in Sources */,
 				0061B2FA2B02F3700037B445 /* ContentView.swift in Sources */,
 				0061B2F82B02F3700037B445 /* SwiftSandboxApp.swift in Sources */,
 			);
