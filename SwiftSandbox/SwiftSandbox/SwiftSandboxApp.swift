@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftSandboxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DependencyInjectionView(dataService: UrlDataService(url: nil))
         }
     }
 }
